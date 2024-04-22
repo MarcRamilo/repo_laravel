@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MpController; // Importar el controlador MpController
+use App\Http\Controllers\MpController; 
 
 Route::get('/', function () {
     return view('welcome');

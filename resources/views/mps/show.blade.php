@@ -5,10 +5,10 @@
 @section('content')
     <div class="container mx-auto px-4">
         <div class="mt-8">
-            <h1 class="text-2xl font-bold mb-4">Detalles del MP</h1>
+            <h1 class="text-2xl font-bold mb-4">Detalls del MP</h1>
             <div class="bg-white shadow overflow-hidden sm:rounded-lg">
                 <div class="px-4 py-5 sm:px-6">
-                    <h3 class="text-lg font-medium leading-6 text-gray-900">Información del MP</h3>
+                    <h3 class="text-lg font-medium leading-6 text-gray-900">Informació del MP</h3>
                 </div>
                 <div class="border-t border-gray-200">
                     <dl>
@@ -17,14 +17,13 @@
                             <dd class="mt-1 text-sm text-gray-900 sm:col-span-2">{{ $mp->id }}</dd>
                         </div>
                         <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                            <dt class="text-sm font-medium text-gray-500">Campo 1</dt>
+                            <dt class="text-sm font-medium text-gray-500">Camp 1</dt>
                             <dd class="mt-1 text-sm text-gray-900 sm:col-span-2">{{ $mp->campo1 }}</dd>
                         </div>
                         <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                            <dt class="text-sm font-medium text-gray-500">Campo 2</dt>
+                            <dt class="text-sm font-medium text-gray-500">Camp 2</dt>
                             <dd class="mt-1 text-sm text-gray-900 sm:col-span-2">{{ $mp->campo2 }}</dd>
                         </div>
-                        <!-- Agrega aquí los campos adicionales que deseas mostrar -->
                     </dl>
                 </div>
             </div>
